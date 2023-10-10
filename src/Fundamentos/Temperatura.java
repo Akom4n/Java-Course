@@ -12,10 +12,10 @@ public class Temperatura {
         final double AJUSTE = 32;
         double fahrnheit = 86;
         double celsius = (fahrnheit - AJUSTE) * FATOR;
+        System.out.println("O resultado é " + celsius + "°C.");
 
         fahrnheit = 150;
         celsius = (fahrnheit - AJUSTE) * FATOR;
-
         System.out.println("O resultado é " + celsius + "°C.");
     }
 }
