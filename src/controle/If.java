@@ -25,5 +25,4 @@ public class If {
 		
 		sc.close();
 	}
-
 }
