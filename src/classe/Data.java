@@ -1,4 +1,4 @@
-package classe.desafios;
+package classe;
 
 public class Data {
 	
@@ -9,9 +9,9 @@ public class Data {
 	//Desafio aula 103
 	
 	Data(){
-		dia = 1;
-		mes = 1;
-		ano = 1970;
+		//dia = 1;
+		//mes = 1;
+		//ano = 1970;
 	}
 	
 	Data(int diaInicial, int mesInicial, int anoInicial){

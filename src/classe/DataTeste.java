@@ -1,4 +1,4 @@
-package classe.desafios;
+package classe;
 
 public class DataTeste {
 	

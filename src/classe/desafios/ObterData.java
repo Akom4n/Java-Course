@@ -2,12 +2,12 @@ package classe.desafios;
 
 public class ObterData {
 	
-	int dia;
-	int mes;
-	int ano;
+	public int dia;
+	public int mes;
+	public int ano;
 	
 	//Forma com mais flexibilidade e recomendada para uso.
-	String obterDataFormatada() {
+	public String obterDataFormatada() {
 		return String.format("%d/%d/%d", dia, mes, ano);
 	}
 	
