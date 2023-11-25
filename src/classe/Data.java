@@ -2,6 +2,7 @@ package classe;
 
 public class Data {
 	
+	//Por padrão sempre definir variaveis no inicio
 	int dia;
 	int mes;
 	int ano;
@@ -24,6 +25,7 @@ public class Data {
 	}
 	
 	String obterDataFormatada() {
-		return String.format("%d/%d/%d", this.dia, mes, ano);
+		final String formato = "%d/%d/%d"; //Var local.
+		return String.format(formato, this.dia, mes, ano);
 	}
 }
