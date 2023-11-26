@@ -16,6 +16,13 @@ public class Data {
 		//mes = 1;
 		//ano = 1970;
 		this(1, 1, 1970);
+		
+		//Objetos vão ter por padrão valor -> null
+		//Valores padrões de cada tipo
+		//byte, short, int, long -> 0
+		//float, double -> 0.0
+		//boolean -> false
+		//char -> '\u0000'
 	}
 	
 	Data(int dia, int mes, int ano){

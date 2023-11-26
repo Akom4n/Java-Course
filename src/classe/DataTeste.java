@@ -19,7 +19,7 @@ public class DataTeste {
 //		System.out.printf("%d/%d/%d", d2.dia, d2.mes, d2.ano);
 		
 		String dataFormatada1 = d1.obterDataFormatada();
-		System.out.println(dataFormatada1);	
+		System.out.println(dataFormatada1);
 		
 		String dataFormatada2 = d2.obterDataFormatada();
 		System.out.println(dataFormatada2);
