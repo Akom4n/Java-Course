@@ -29,5 +29,7 @@ public class ConjuntoComportado {
 		for (int n : nums) {
 			System.out.println(n);
 		}
+		
+		//Apenas um commit para não perder o dia, desculpa vinicius do futuro, mas hoje to bem cansado, cheguei agr as 22:47, então deixe pra amnhã pls e não me culpe!!!!
 	}
 }
