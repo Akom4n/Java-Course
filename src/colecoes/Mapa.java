@@ -24,10 +24,11 @@ public class Mapa {
 		System.out.println(usuarios.containsKey(20));
 		System.out.println(usuarios.containsValue("Rebeca"));
 		
-		System.out.println(usuarios.get(4));
-		System.out.println(usuarios.remove(1));
-		System.out.println(usuarios.remove(4, "Gui"));
+		System.out.println(usuarios.get(4)); 
+		System.out.println(usuarios.remove(1)); // Remove o 1 valor
+		System.out.println(usuarios.remove(4, "Gui")); // Dará erro pois o segundo valor não existe no objeto 4
 		
+		//Formas de percorrer os valores do Map
 		for (int chave : usuarios.keySet()) {
 			System.out.println(chave);
 		}
@@ -36,6 +37,7 @@ public class Mapa {
 			System.out.println(valor);
 		}
 		
+		//Forma mais completa
 		for(Entry<Integer, String> registro: usuarios.entrySet()) {
 			System.out.print(registro.getKey() + " ===> ");
 			System.out.println(registro.getValue());
