@@ -18,5 +18,7 @@ public class Sistema {
 		
 		System.out.println(cliente.getValorTotal());
 		
+		//Teste apenas para ver se o code ainda está fazendo upstream
+		
 	}
 }
